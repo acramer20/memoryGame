@@ -1,0 +1,26 @@
+#game-div {
+	display: flex;
+	justify-content: center;
+}
+#game {
+	/* border: 1px solid black; */
+	height: 80vh;
+	width: 80vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 6em;
+	font-family: 'Bubbler One';
+	text-align: center;
+}
